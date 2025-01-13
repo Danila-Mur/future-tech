@@ -1,0 +1,18 @@
+.summary__list {
+  display: flex;
+  column-gap: clamp(1.25rem, 0.7720588235rem + 1.9607843137vw, 3.125rem);
+}
+.summary__item {
+  display: grid;
+  row-gap: 0.25rem;
+}
+@media (width <= 90.06125rem) {
+  .summary__item {
+    row-gap: 0.125rem;
+  }
+}
+.summary__value {
+  color: var(--color-light);
+}
+
+/*# sourceMappingURL=summary.css.map */
